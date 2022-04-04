@@ -477,6 +477,46 @@
       }
     ]
   },
+    "ControlTheTower": {
+    "Room": {
+      "RoomId":53367,
+      "Name":"ControlTheTower",
+      "Description":"King of the hill game!",
+      "CreatorPlayerId":1,
+      "ImageName":"ActivityControlTheTower.png",
+      "Accessibility":1,
+      "SupportsLevelVoting":false,
+      "IsAGRoom":false,
+      "CloningAllowed":false,
+      "SupportsScreens":true,
+      "SupportsWalkVR":true,
+      "SupportsTeleportVR":true
+    },
+    "Scenes": [
+      {
+        "RoomSceneId":1,
+        "RoomId":53367,
+        "RoomSceneLocationId":"0a864c86-5a71-4e18-8041-8124e4dc9d98",
+        "Name":"Home",
+        "IsSandbox":true,
+        "DataBlobName":"Tg7qKZwQ60aD3ol0YfdgHQ.room",
+        "MaxPlayers":20,
+        "CanMatchmakeInto":true,
+        "DataModifiedAt":"2021-05-23T20:55:07.8690538-04:00"
+      }
+    ],
+    "CoOwners":[29869076],
+    "Hosts":[],
+    "CheerCount":1,
+    "FavoriteCount":1,
+    "VisitCount":1,
+    "Tags": [
+      {
+        "Tag":"rro",
+        "Type":2
+      }
+    ]
+  },
     "PirateQuestPractice": {
     "Room": {
       "RoomId":2365681,
@@ -541,6 +581,46 @@
         "IsSandbox":true,
         "DataBlobName":"e1Tj3BZf90iqJP8-4_2NOA.room",
         "MaxPlayers":40,
+        "CanMatchmakeInto":true,
+        "DataModifiedAt":"2021-05-23T20:55:07.8690538-04:00"
+      }
+    ],
+    "CoOwners":[29869076],
+    "Hosts":[],
+    "CheerCount":1,
+    "FavoriteCount":1,
+    "VisitCount":1,
+    "Tags": [
+      {
+        "Tag":"rro",
+        "Type":2
+      }
+    ]
+  },
+  "RRhelp": {
+    "Room": {
+      "RoomId":107578,
+      "Name":"RRhelp",
+      "Description":"RR tours",
+      "CreatorPlayerId":1,
+      "ImageName":"ActivityRRhelp.jpg",
+      "Accessibility":1,
+      "SupportsLevelVoting":false,
+      "IsAGRoom":false,
+      "CloningAllowed":false,
+      "SupportsScreens":true,
+      "SupportsWalkVR":true,
+      "SupportsTeleportVR":true
+    },
+    "Scenes": [
+      {
+        "RoomSceneId":1,
+        "RoomId":107578,
+        "RoomSceneLocationId":"a75f7547-79eb-47c6-8986-6767abcb4f92",
+        "Name":"Home",
+        "IsSandbox":true,
+        "DataBlobName":"yRMPzdTWjk-md339OVHMAw.room",
+        "MaxPlayers":20,
         "CanMatchmakeInto":true,
         "DataModifiedAt":"2021-05-23T20:55:07.8690538-04:00"
       }
@@ -1139,7 +1219,7 @@
         "DataModifiedAt":"2021-05-23T16:24:13.1922819+10:00"
       }
     ],
-    "CoOwners":[29869076],
+    "CoOwners":[29869076,39720],
     "Hosts":[],
     "CheerCount":1,
     "FavoriteCount":1,
@@ -1394,7 +1474,7 @@
       "Name":"Lounge",
       "Description":"A low-key lounge to chill with your friends. Great for private parties!",
       "CreatorPlayerId":1,
-      "ImageName":"",
+      "ImageName":"ActivityLounge.png",
       "State":0,
       "Accessibility":1,
       "SupportsLevelVoting":false,
@@ -1435,7 +1515,7 @@
       "Name":"Park",
       "Description":"A sprawling park with amphitheater, play fields, and a cave.",
       "CreatorPlayerId":1,
-      "ImageName":"",
+      "ImageName":"ActivityPark.png",
       "State":0,
       "Accessibility":1,
       "SupportsLevelVoting":false,
@@ -1559,7 +1639,8 @@
       "Description":"Your private room",
       "CreatorPlayerId":1,
       "ImageName":"ActivityDormRoom.png",
-      "State":0,"Accessibility":1,
+      "State":0,
+      "Accessibility":1,
       "SupportsLevelVoting":false,
       "IsAGRoom":true,
       "CloningAllowed":false,
@@ -1573,14 +1654,14 @@
         "RoomId":1,
         "RoomSceneLocationId":"76d98498-60a1-430c-ab76-b54a29b7a163",
         "Name":"dormroom2",
-        "IsSandbox":false,
+        "IsSandbox":true,
         "DataBlobName":"",
         "MaxPlayers":20,
         "CanMatchmakeInto":true,
         "DataModifiedAt":"2021-05-23T16:24:13.1922819+10:00"
       }
     ],
-    "CoOwners":[29869076],
+    "CoOwners":[29869076,39720],
     "Hosts":[],
     "CheerCount":1,
     "FavoriteCount":1,
@@ -1613,15 +1694,15 @@
         "RoomId":2,
         "RoomSceneLocationId":"cbad71af-0831-44d8-b8ef-69edafa841f6",
         "Name":"reccenter",
-        "IsSandbox":false,
+        "IsSandbox":true,
         "DataBlobName":"",
         "MaxPlayers":20,
         "CanMatchmakeInto":true,
         "DataModifiedAt":"2021-05-23T16:24:13.1922819+10:00"
       }
     ],
-    "CoOwners":[29869076, 153628704],
-    "Hosts":[],
+    "CoOwners":[29869076],
+    "Hosts":[1260281079],
     "CheerCount":1,
     "FavoriteCount":1,
     "VisitCount":1,
